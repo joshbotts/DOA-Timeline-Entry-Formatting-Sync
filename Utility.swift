@@ -92,11 +92,6 @@ class DOATimelineEntryUpdater {
         }
     }
     
-    
-    // this doesn't work - need to study the example app in airtablekit to understand how to trigger the syncing action.
-
-        
-    
     func syncDOAtoAirtable() {
         var tasks = [URLRequest]()
         let session = URLSession.shared
